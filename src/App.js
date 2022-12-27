@@ -1,12 +1,22 @@
+import { Routes, Route } from "react-router-dom";
+
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Contact from "./pages/Contact";
 import Home from "./pages/HomePage";
+import Portfolio from "./pages/Portfolio";
+import Services from "./pages/Services";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
     </div>
   );

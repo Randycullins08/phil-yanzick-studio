@@ -20,16 +20,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 1em;
     text-align: center;
     height: 80%;
 
     .bio-wrapper {
       font-size: 1.3em;
+      margin: 3em;
     }
 
     button {
-      margin: 2em;
+      margin: 1em;
       padding: 2em;
       border-radius: 10px;
       font-size: 1em;
@@ -50,7 +50,10 @@
     }
 
     .about-content-wrapper {
-      margin: 1em;
+      .bio-wrapper {
+        font-size: 1.3em;
+        margin: 2em;
+      }
     }
   }
 }
