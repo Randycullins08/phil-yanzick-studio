@@ -1,0 +1,37 @@
+.about-section-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+
+  .image-wrapper {
+    height: 40em;
+    width: 100%;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .about-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1em;
+    text-align: center;
+    height: 100%;
+
+    .bio-wrapper {
+      font-size: 1.3em;
+    }
+
+    button {
+      margin-top: 2em;
+      padding: 2em;
+      border-radius: 10px;
+      font-size: 1em;
+    }
+  }
+}

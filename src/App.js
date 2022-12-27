@@ -1,11 +1,13 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
+import Home from "./pages/HomePage";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <HeroSection />
+      <Home />
+      <Footer />
     </div>
   );
 }

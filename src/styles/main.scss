@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import "./header.scss";
-@import "./heroSection.scss";
+@import "./components/heroSection.scss";
+@import "./components/aboutSection.scss";
 
 body {
   font-family: "Montserrat", sans-serif;
