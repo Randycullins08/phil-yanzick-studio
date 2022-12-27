@@ -47,9 +47,7 @@ export default function AboutSection() {
           </p>
         </div>
 
-        <button>
-          <Link to="/contact">Book The Space!</Link>
-        </button>
+        <Link to="/contact">Book The Space!</Link>
       </div>
     </div>
   );

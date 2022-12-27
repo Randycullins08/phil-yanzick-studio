@@ -27,12 +27,19 @@
       font-size: 1.3em;
       margin: 3em;
     }
-
-    button {
+    a {
       margin: 1em;
-      padding: 2em;
-      border-radius: 10px;
-      font-size: 1em;
+      padding: 1.5em;
+      border-radius: 5px;
+      border: 2px solid black;
+      font-size: 1.5em;
+      background-color: inherit;
+      color: inherit;
+
+      &:hover {
+        background-color: black;
+        color: white;
+      }
     }
   }
 }

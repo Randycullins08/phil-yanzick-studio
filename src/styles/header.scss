@@ -8,6 +8,10 @@
 
   h2 {
     margin: 0;
+
+    a {
+      padding: 1em;
+    }
   }
 
   .header-title {
@@ -21,5 +25,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    .header-links {
+      font-size: 0.9em;
+    }
   }
 }

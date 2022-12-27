@@ -16,6 +16,10 @@ h1 {
 a {
   text-decoration: none;
   color: inherit;
+  padding: 1.5em;
+  border-radius: 5px;
+  font-size: 1em;
+  transition-duration: 0.2s;
 
   &:hover {
     background-color: black;
