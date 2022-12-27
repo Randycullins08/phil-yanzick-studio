@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import "./header.scss";
+@import "./heroSection.scss";
+
 body {
-  color: red;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
 }

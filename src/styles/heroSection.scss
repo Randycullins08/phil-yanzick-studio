@@ -1,0 +1,17 @@
+.hero-section-container {
+  background-image: url("../img/studio.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .hero-section-header {
+    z-index: 1;
+    h1 {
+      font-size: 8em;
+      color: white;
+    }
+  }
+}
