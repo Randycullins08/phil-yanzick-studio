@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Contact from "./pages/Contact";
 import Home from "./pages/HomePage";
 import Portfolio from "./pages/Portfolio";
-import Services from "./pages/Services";
+import Studio from "./pages/Studio";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/studio" element={<Studio />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

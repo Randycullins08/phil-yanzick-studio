@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import "./mixins.scss";
 @import "./header.scss";
 @import "./components/heroSection.scss";
 @import "./components/aboutSection.scss";
+@import "./components/carousel.scss";
+@import "./pages/studio.scss";
 @import "./components/footer.scss";
 
 body {

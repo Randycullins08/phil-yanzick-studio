@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 
-import Phil from "../img/phil.jpeg";
+// import Phil from "../img/phil.jpeg";
 
 export default function AboutSection() {
   return (
     <div className="about-section-container">
       <div className="image-wrapper">
-        <img src={Phil} alt="phil" />
+        <img src="/img/phil.jpeg" alt="phil" />
       </div>
 
       <div className="about-content-wrapper">
