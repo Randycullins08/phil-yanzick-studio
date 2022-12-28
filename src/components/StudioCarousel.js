@@ -13,10 +13,6 @@ export default function StudioCarousel({ images }) {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
-  if (!Array.isArray(images) || images.length <= 0) {
-    return null;
-  }
-
   return (
     <div className="slider" id="images">
       <i className="fas fa-angle-left" onClick={prevSlide} />
