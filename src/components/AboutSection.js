@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 
-// import Phil from "../img/phil.jpeg";
-
 export default function AboutSection() {
   return (
     <div className="about-section-container">
@@ -11,7 +9,7 @@ export default function AboutSection() {
 
       <div className="about-content-wrapper">
         <div className="bio-wrapper">
-          <h3>Hey, I’m Phil!</h3>
+          <h3>Hey, I’m Phillip!</h3>
 
           <p>
             I’m a music and sound producer operating from the great state of

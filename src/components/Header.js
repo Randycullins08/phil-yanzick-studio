@@ -5,7 +5,7 @@ export default function Header() {
     <div className="header-container">
       <div className="header-title">
         <h2>
-          <Link to="/">Phil Yanzick</Link>
+          <Link to="/">Phillip Yanzick</Link>
         </h2>
       </div>
 

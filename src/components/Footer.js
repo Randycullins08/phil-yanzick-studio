@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-header">
-        <h3>Phil Yanzick</h3>
+        <h3>Phillip Yanzick</h3>
       </div>
 
       <div className="footer-content">
