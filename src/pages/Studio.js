@@ -18,7 +18,7 @@ export default function Studio() {
 
       <div className="gear-content">
         <div className="recording">
-          <h4>Recording</h4>
+          <h3>Recording</h3>
 
           <ul>
             <li>DAW: protools 12</li>
@@ -32,7 +32,7 @@ export default function Studio() {
         </div>
 
         <div className="mics">
-          <h4>Mics</h4>
+          <h3>Mics</h3>
 
           <ul>
             <li>STAM u87</li>
@@ -52,7 +52,7 @@ export default function Studio() {
         </div>
 
         <div className="guitar-amps">
-          <h4>Guitar Amps</h4>
+          <h3>Guitar Amps</h3>
 
           <ul>
             <li>1974 Super Reverb</li>
@@ -66,7 +66,7 @@ export default function Studio() {
         </div>
 
         <div className="guitars">
-          <h4>Guitars</h4>
+          <h3>Guitars</h3>
 
           <ul>
             <li>1974 Gibson Les Paul Custom</li>
@@ -86,7 +86,7 @@ export default function Studio() {
         </div>
 
         <div className="pedals">
-          <h4>Pedals</h4>
+          <h3>Pedals</h3>
 
           <ul>
             <li>Klone Clone Centaur</li>
@@ -104,7 +104,7 @@ export default function Studio() {
         </div>
 
         <div className="drum-gear">
-          <h4>Drum Gear</h4>
+          <h3>Drum Gear</h3>
 
           <ul>
             <li>1964 Ludwig Maple Marching Snare 15×12</li>

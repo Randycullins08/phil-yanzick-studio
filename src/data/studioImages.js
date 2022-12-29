@@ -29,4 +29,9 @@ export const studioImages = [
     image: "/img/studio.jpeg",
     alt: "studio",
   },
+  {
+    id: 6,
+    image: "/img/amps.jpeg",
+    alt: "amps",
+  },
 ];
