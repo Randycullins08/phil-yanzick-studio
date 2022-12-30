@@ -8,9 +8,9 @@ export default function Header() {
   return (
     <div className="header-container">
       <div className="header-title">
-        <h2>
+        <h1>
           <Link to="/">Phillip Yanzick</Link>
-        </h2>
+        </h1>
       </div>
 
       <div className="header-links">
