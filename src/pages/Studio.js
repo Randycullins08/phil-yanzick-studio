@@ -57,11 +57,10 @@ export default function Studio() {
           <ul>
             <li>1974 Super Reverb</li>
             <li>Marshall 1986 Gold Face Jubilee</li>
-            <li>Marshall 1984 jcm 800</li>
             <li>Dr Z Maz 18</li>
             <li>Morgan 30/800</li>
-            <li>Orange Dual Terror</li>
             <li>Mesa Big Block 750</li>
+            <li>Darkglass Micro Tube 900</li>
           </ul>
         </div>
 
@@ -111,7 +110,8 @@ export default function Studio() {
             <li>Tama SLP Steal 14×8</li>
             <li>Sjc Brass 14×6.5</li>
             <li>Pork Pie Acrylic 14×5</li>
-            <li>Mapex Mars Birch Kit K Series Zildjian 20” Ride x2</li>
+            <li>Mapex Mars Birch Kit</li>
+            <li>K Series Zildjian 20” Ride x2</li>
             <li>K Dry Series Zildjian 14” Hi Hats</li>
             <li>A Custom Zildjian 20” Ride</li>
             <li>Sabian 24” Thin Ride</li>
