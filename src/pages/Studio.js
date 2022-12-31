@@ -81,6 +81,8 @@ export default function Studio() {
             <li>Fender Mexican Made Mustang</li>
             <li>Martin d15</li>
             <li>Gibson 1964 LGO</li>
+            <li>1991 Gibson EB-Bass</li>
+            <li>2022 Fender Telecaster Deluxe MIM</li>
           </ul>
         </div>
 

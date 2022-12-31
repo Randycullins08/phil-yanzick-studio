@@ -4,9 +4,24 @@
   margin: 2em;
 
   .contact-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2em;
     .image-wrapper {
       img {
+        height: 100%;
+        width: 90%;
         border-radius: 10px;
+      }
+    }
+
+    .form-wrapper {
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
       }
     }
   }
