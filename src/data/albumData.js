@@ -12,39 +12,17 @@ export const albumData = [
   },
   {
     id: 1,
-    bandName: "Chairea",
+    bandName: "NVM",
     player: (
       <iframe
-        title="Chairea"
+        title="NVM"
         style={{ border: "0", width: "350px", height: "470px" }}
-        src="https://bandcamp.com/EmbeddedPlayer/album=1209895196/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=4165751693/transparent=true/"
+        src="https://open.spotify.com/embed/album/5IXMoep5wF4BBJmq6YIXDm?utm_source=generator"
       />
     ),
   },
   {
     id: 2,
-    bandName: "Chairea",
-    player: (
-      <iframe
-        title="Chairea"
-        style={{ border: "0", width: "350px", height: "470px" }}
-        src="https://open.spotify.com/embed/album/5feTwq8XdUk32Cqs1YTdll?utm_source=generator"
-      />
-    ),
-  },
-  {
-    id: 3,
-    bandName: "Treasure State",
-    player: (
-      <iframe
-        title="Treasure State"
-        style={{ border: "0", width: "350px", height: "470px" }}
-        src="https://open.spotify.com/embed/artist/14uhuj5LTdNyF0SjDQ0N2p?utm_source=generator"
-      />
-    ),
-  },
-  {
-    id: 4,
     bandName: "Anaconda Vise",
     player: (
       <iframe
@@ -55,24 +33,46 @@ export const albumData = [
     ),
   },
   {
+    id: 3,
+    bandName: "Chairea",
+    player: (
+      <iframe
+        title="Chairea"
+        style={{ border: "0", width: "350px", height: "470px" }}
+        src="https://bandcamp.com/EmbeddedPlayer/album=1209895196/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=4165751693/transparent=true/"
+      />
+    ),
+  },
+  {
+    id: 4,
+    bandName: "Chairea",
+    player: (
+      <iframe
+        title="Chairea"
+        style={{ border: "0", width: "350px", height: "470px" }}
+        src="https://open.spotify.com/embed/album/5feTwq8XdUk32Cqs1YTdll?utm_source=generator"
+      />
+    ),
+  },
+  {
     id: 5,
+    bandName: "Treasure State",
+    player: (
+      <iframe
+        title="Treasure State"
+        style={{ border: "0", width: "350px", height: "470px" }}
+        src="https://open.spotify.com/embed/artist/14uhuj5LTdNyF0SjDQ0N2p?utm_source=generator"
+      />
+    ),
+  },
+  {
+    id: 6,
     bandName: "Anaconda Vise",
     player: (
       <iframe
         title="Anaconda Vise"
         style={{ border: "0", width: "350px", height: "470px" }}
         src="https://open.spotify.com/embed/album/2079whpdnN9I0QFEIDevEA?utm_source=generator"
-      />
-    ),
-  },
-  {
-    id: 6,
-    bandName: "NVM",
-    player: (
-      <iframe
-        title="NVM"
-        style={{ border: "0", width: "350px", height: "470px" }}
-        src="https://open.spotify.com/embed/album/5IXMoep5wF4BBJmq6YIXDm?utm_source=generator"
       />
     ),
   },
