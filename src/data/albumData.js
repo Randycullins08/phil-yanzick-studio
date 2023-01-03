@@ -2,6 +2,7 @@ export const albumData = [
   {
     id: 0,
     bandName: "Hibernator",
+    work: "Engineered",
     player: (
       <iframe
         title="Hibernator"
@@ -13,6 +14,7 @@ export const albumData = [
   {
     id: 1,
     bandName: "NVM",
+    work: "Engineered",
     player: (
       <iframe
         title="NVM"
@@ -24,6 +26,7 @@ export const albumData = [
   {
     id: 2,
     bandName: "Anaconda Vise",
+    work: "Engineered | Mixed | Mastered",
     player: (
       <iframe
         title="Anaconda Vise"
@@ -35,6 +38,7 @@ export const albumData = [
   {
     id: 3,
     bandName: "Chairea",
+    work: "Engineered | Mixed | Mastered",
     player: (
       <iframe
         title="Chairea"
@@ -46,6 +50,7 @@ export const albumData = [
   {
     id: 4,
     bandName: "Chairea",
+    work: "Engineered | Mixed",
     player: (
       <iframe
         title="Chairea"
@@ -57,6 +62,7 @@ export const albumData = [
   {
     id: 5,
     bandName: "Treasure State",
+    work: "Engineered | Mixed | Mastered",
     player: (
       <iframe
         title="Treasure State"
@@ -68,6 +74,7 @@ export const albumData = [
   {
     id: 6,
     bandName: "Anaconda Vise",
+    work: "Live Recorded | Mixed | Mastered",
     player: (
       <iframe
         title="Anaconda Vise"
@@ -79,6 +86,7 @@ export const albumData = [
   {
     id: 7,
     bandName: "NVM",
+    work: "Engineered | Mixed | Mastered",
     player: (
       <iframe
         title="NVM"
@@ -90,6 +98,7 @@ export const albumData = [
   {
     id: 8,
     bandName: "Gray Joy",
+    work: "Engineered | Mixed | Mastered",
     player: (
       <iframe
         title="Gray Joy"
@@ -101,6 +110,7 @@ export const albumData = [
   {
     id: 9,
     bandName: "Dragged Out",
+    work: "Engineered",
     player: (
       <iframe
         title="Dragged Out"
@@ -112,6 +122,7 @@ export const albumData = [
   {
     id: 10,
     bandName: "Sky Drftr",
+    work: "Engineered | Mixed | Mastered",
     player: (
       <iframe
         title="Sky Drftr"
@@ -123,6 +134,7 @@ export const albumData = [
   {
     id: 11,
     bandName: "Tom Russell",
+    work: "Vocal Engineered",
     player: (
       <iframe
         title="Tom Russell"
@@ -134,6 +146,7 @@ export const albumData = [
   {
     id: 12,
     bandName: "Hubba Hubba",
+    work: "Engineered | Mixed | Mastered",
     player: (
       <iframe
         title="Hubba Hubba"
@@ -145,6 +158,7 @@ export const albumData = [
   {
     id: 13,
     bandName: "Hubba Hubba",
+    work: "Engineered | Mixed | Mastered",
     player: (
       <iframe
         title="Hubba Hubba"
@@ -156,6 +170,7 @@ export const albumData = [
   {
     id: 14,
     bandName: "Tiny Iota",
+    work: "Mixed | Mastered",
     player: (
       <iframe
         title="Tiny Iota"

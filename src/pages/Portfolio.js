@@ -11,6 +11,7 @@ export default function Portfolio() {
         {albumData.map((album) => (
           <div key={album.id}>
             <h3 className="band-name">Band Name: {album.bandName}</h3>
+            <h3 className="band-name">Work Done: {album.work}</h3>
             <div className="band-player">{album.player}</div>
           </div>
         ))}
