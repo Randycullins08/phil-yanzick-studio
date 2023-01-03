@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { studioImages } from "../data/studioImages";
+import Modal from "../modal/Modal";
 
 export default function StudioCarousel({ images }) {
   const [current, setCurrent] = useState(0);
+  const [isOpen, setIsOpen] = useState(false);
   const length = images.length;
 
   const nextSlide = () => {
@@ -15,11 +17,39 @@ export default function StudioCarousel({ images }) {
 
   return (
     <div className="slider" id="images">
-      <i className="fas fa-angle-left" onClick={prevSlide} />
-      <i className="fas fa-angle-right" onClick={nextSlide} />
+      {!isOpen ? <i className="fas fa-angle-left" onClick={prevSlide} /> : null}
+      {!isOpen ? (
+        <i className="fas fa-angle-right" onClick={nextSlide} />
+      ) : null}
       {studioImages.map((slide, idx) => (
         <div className={idx === current ? "slide active" : "slide"} key={idx}>
-          {idx === current && <img src={slide.image} alt={slide.alt} />}
+          {idx === current && (
+            <>
+              <img
+                src={slide.image}
+                alt={slide.alt}
+                onClick={() => setIsOpen((prev) => !prev)}
+              />
+              {isOpen ? (
+                <Modal
+                  isOpen={isOpen}
+                  onRequestClose={() => setIsOpen((prev) => !prev)}
+                  content={{
+                    backgroundImage: `url(${slide.image})`,
+                    backgroundSize: "100% 100%",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                >
+                  <div className="carousel-wrapper">
+                    <i
+                      className="fas fa-times"
+                      onClick={() => setIsOpen((prev) => !prev)}
+                    />
+                  </div>
+                </Modal>
+              ) : null}
+            </>
+          )}
         </div>
       ))}
     </div>
