@@ -72,9 +72,9 @@ export default function Modal(props) {
             content: {
               position: "absolute",
               top: "10em",
-              left: "3em",
-              right: "3em",
-              bottom: "10em",
+              left: "1.5em",
+              right: "1.5em",
+              bottom: "8em",
               border: "1px solid #ccc",
               background: "#fff",
               overflow: "auto",
