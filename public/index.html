@@ -34,7 +34,12 @@
     <title>Phillip Yanzick</title>
   </head>
   <body>
-    <form name="contactForm" netlify hidden>
+    <form
+      name="contactForm"
+      netlify-honeypot="bot-field"
+      data-netlify="true"
+      hidden
+    >
       <input type="text" name="name" />
       <input type="email" name="email" />
       <textarea name="message"></textarea>
