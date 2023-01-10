@@ -19,12 +19,24 @@ export const albumData = [
       <iframe
         title="NVM"
         style={{ border: "0", width: "350px", height: "470px" }}
-        src="https://open.spotify.com/embed/album/5IXMoep5wF4BBJmq6YIXDm?utm_source=generator"
+        src="https://open.spotify.com/embed/album/61yrnIQNoSMirv6gadFV6W?utm_source=generator"
       />
     ),
   },
   {
     id: 2,
+    bandName: "NVM",
+    work: "Engineered",
+    player: (
+      <iframe
+        title="NVM"
+        style={{ border: "0", width: "350px", height: "470px" }}
+        src="https://open.spotify.com/embed/album/5IXMoep5wF4BBJmq6YIXDm?utm_source=generator"
+      />
+    ),
+  },
+  {
+    id: 3,
     bandName: "Anaconda Vise",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -36,7 +48,7 @@ export const albumData = [
     ),
   },
   {
-    id: 3,
+    id: 4,
     bandName: "Chairea",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -48,7 +60,7 @@ export const albumData = [
     ),
   },
   {
-    id: 4,
+    id: 5,
     bandName: "Chairea",
     work: "Engineered | Mixed",
     player: (
@@ -60,7 +72,7 @@ export const albumData = [
     ),
   },
   {
-    id: 5,
+    id: 6,
     bandName: "Treasure State",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -72,7 +84,7 @@ export const albumData = [
     ),
   },
   {
-    id: 6,
+    id: 7,
     bandName: "Anaconda Vise",
     work: "Live Recorded | Mixed | Mastered",
     player: (
@@ -84,7 +96,7 @@ export const albumData = [
     ),
   },
   {
-    id: 7,
+    id: 8,
     bandName: "NVM",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -96,7 +108,7 @@ export const albumData = [
     ),
   },
   {
-    id: 8,
+    id: 9,
     bandName: "Gray Joy",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -108,7 +120,7 @@ export const albumData = [
     ),
   },
   {
-    id: 9,
+    id: 10,
     bandName: "Dragged Out",
     work: "Engineered",
     player: (
@@ -120,7 +132,7 @@ export const albumData = [
     ),
   },
   {
-    id: 10,
+    id: 11,
     bandName: "Sky Drftr",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -132,7 +144,7 @@ export const albumData = [
     ),
   },
   {
-    id: 11,
+    id: 12,
     bandName: "Tom Russell",
     work: "Vocal Engineered",
     player: (
@@ -144,7 +156,7 @@ export const albumData = [
     ),
   },
   {
-    id: 12,
+    id: 13,
     bandName: "Hubba Hubba",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -156,7 +168,7 @@ export const albumData = [
     ),
   },
   {
-    id: 13,
+    id: 14,
     bandName: "Hubba Hubba",
     work: "Engineered | Mixed | Mastered",
     player: (
@@ -168,7 +180,7 @@ export const albumData = [
     ),
   },
   {
-    id: 14,
+    id: 15,
     bandName: "Tiny Iota",
     work: "Mixed | Mastered",
     player: (
